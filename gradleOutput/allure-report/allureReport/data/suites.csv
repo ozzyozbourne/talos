@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 02 21:32:42 IST 2023","Mon Jan 02 21:32:42 IST 2023","21","Practice Suite","Test Basics 2","sample.SampleTest2","sample.SampleTest2","testA","testA",""
+"passed","Mon Jan 02 21:32:42 IST 2023","Mon Jan 02 21:32:42 IST 2023","21","Practice Suite","Test Basics 1","sample.SampleTest","sample.SampleTest","testA","testA",""

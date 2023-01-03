@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" thread-count="6">
+
+    <test name="Test Basics 1">
+        <classes>
+            <class name="sample.SampleTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Basics 2">
+        <classes>
+            <class name="sample.SampleTest2"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Basics 3">
+        <classes>
+            <class name="sample.SampleTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Basics 4">
+        <classes>
+            <class name="sample.SampleTest"/>
+        </classes>
+    </test>
+    
+
+</suite>
