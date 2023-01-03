@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-04T00:08:50 IST" name="Practice Suite" finished-at="2023-01-04T00:08:51 IST" duration-ms="324">
+  <suite started-at="2023-01-04T02:09:01 IST" name="Practice Suite" finished-at="2023-01-04T02:11:57 IST" duration-ms="175643">
     <groups>
     </groups>
-    <test started-at="2023-01-04T00:08:50 IST" name="Test Basics 1" finished-at="2023-01-04T00:08:51 IST" duration-ms="324">
+    <test started-at="2023-01-04T02:09:01 IST" name="Test Basics 1" finished-at="2023-01-04T02:11:57 IST" duration-ms="175643">
       <class name="sample.SampleTest">
-        <test-method signature="testA()[pri:0, instance:sample.SampleTest@6ac0b715]" started-at="2023-01-04T00:08:50 IST" name="testA" finished-at="2023-01-04T00:08:51 IST" duration-ms="106" status="PASS">
+        <test-method signature="playwright()[pri:0, instance:sample.SampleTest@c3177d5]" started-at="2023-01-04T02:09:01 IST" name="playwright" finished-at="2023-01-04T02:11:56 IST" duration-ms="175371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playwright -->
+        <test-method signature="testA()[pri:0, instance:sample.SampleTest@c3177d5]" started-at="2023-01-04T02:11:57 IST" name="testA" finished-at="2023-01-04T02:11:57 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
