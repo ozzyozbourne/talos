@@ -1,7 +1,7 @@
 plugins {
     id 'java'
-    id "io.qameta.allure" version "2.11.2"
-    id "io.freefair.lombok" version "6.6.1"
+    id 'io.qameta.allure' version '2.11.2'
+    id 'io.freefair.lombok' version '6.6.1'
 }
 
 group 'org.example'
@@ -31,17 +31,17 @@ dependencies {
     testImplementation 'org.aspectj:aspectjweaver:1.9.19'
 }
 
-reporting.baseDir = "gradleOutput"
+reporting.baseDir = 'gradleOutput'
 
 test {
-    systemProperties(["tier":System.getProperty("tier"), "browser":System.getProperty("browser"),
-                      "product":System.getProperty("product")])
+    systemProperties(['tier':System.getProperty('tier'), 'browser':System.getProperty('browser'),
+                      'product':System.getProperty('product')])
     useTestNG(){
         setUseDefaultListeners true
-        suites "src/test/resources/testgnxmls/"+project.xmlfile+".xml"
+        suites "src/test/resources/testgnxmls/$project.xmlfile"
         setOutputDirectory file("$projectDir/testngOutput")
     }
     testLogging {
-        events "PASSED", "SKIPPED", "FAILED", "STANDARD_OUT"
+        events 'PASSED', 'SKIPPED', 'FAILED', 'STANDARD_OUT'
     }
 }
