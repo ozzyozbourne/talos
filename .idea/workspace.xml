@@ -7,35 +7,18 @@
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 3.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 4.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testngOutput/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -122,7 +106,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.rsap [test]">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="rsap.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="rsap [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="rsap [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +154,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,16 +185,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="/home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/br.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rsap.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testgnxmls/br.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rsap.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" />
@@ -210,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.rsap [dependencies]" />
         <item itemvalue="Gradle.rsap [test]" />
         <item itemvalue="TestNG./home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/test.xml" />
         <item itemvalue="Gradle.SampleTest" />
-        <item itemvalue="TestNG./home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/br.xml" />
-        <item itemvalue="Gradle.rsap [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +218,7 @@
       <workItem from="1672413515110" duration="655000" />
       <workItem from="1672669096464" duration="3736000" />
       <workItem from="1672740318499" duration="679000" />
-      <workItem from="1672751338245" duration="8926000" />
+      <workItem from="1672751338245" duration="11923000" />
     </task>
     <servers />
   </component>
