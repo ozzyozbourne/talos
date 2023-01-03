@@ -9,25 +9,4 @@
     </test>
 
 
-    <test name="Test Basics 2">
-        <classes>
-            <class name="sample.SampleTest2"/>
-        </classes>
-    </test>
-
-
-    <test name="Test Basics 3">
-        <classes>
-            <class name="sample.SampleTest"/>
-        </classes>
-    </test>
-
-
-    <test name="Test Basics 4">
-        <classes>
-            <class name="sample.SampleTest"/>
-        </classes>
-    </test>
-    
-
 </suite>

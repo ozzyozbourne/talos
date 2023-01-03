@@ -1,2 +1,9 @@
 rootProject.name = 'rsap'
+buildCache {
+    local {
+        directory = new File('/home/ozzy/Music', 'build-cache')
+        removeUnusedEntriesAfterDays = 30
+    }
+}
+
 

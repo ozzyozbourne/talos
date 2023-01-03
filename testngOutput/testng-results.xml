@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-02T21:32:42 IST" name="Practice Suite" finished-at="2023-01-02T21:32:42 IST" duration-ms="398">
+  <suite started-at="2023-01-03T23:09:10 IST" name="Practice Suite" finished-at="2023-01-03T23:09:11 IST" duration-ms="318">
     <groups>
     </groups>
-    <test started-at="2023-01-02T21:32:42 IST" name="Test Basics 3" finished-at="2023-01-02T21:32:42 IST" duration-ms="395">
+    <test started-at="2023-01-03T23:09:10 IST" name="Test Basics 1" finished-at="2023-01-03T23:09:11 IST" duration-ms="318">
       <class name="sample.SampleTest">
-        <test-method signature="testA()[pri:0, instance:sample.SampleTest@7063686f]" started-at="2023-01-02T21:32:42 IST" name="testA" finished-at="2023-01-02T21:32:42 IST" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-      </class> <!-- sample.SampleTest -->
-    </test> <!-- Test Basics 3 -->
-    <test started-at="2023-01-02T21:32:42 IST" name="Test Basics 1" finished-at="2023-01-02T21:32:42 IST" duration-ms="397">
-      <class name="sample.SampleTest">
-        <test-method signature="testA()[pri:0, instance:sample.SampleTest@167279d1]" started-at="2023-01-02T21:32:42 IST" name="testA" finished-at="2023-01-02T21:32:42 IST" duration-ms="98" status="PASS">
+        <test-method signature="testA()[pri:0, instance:sample.SampleTest@167279d1]" started-at="2023-01-03T23:09:11 IST" name="testA" finished-at="2023-01-03T23:09:11 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
       </class> <!-- sample.SampleTest -->
     </test> <!-- Test Basics 1 -->
-    <test started-at="2023-01-02T21:32:42 IST" name="Test Basics 4" finished-at="2023-01-02T21:32:42 IST" duration-ms="385">
-      <class name="sample.SampleTest">
-        <test-method signature="testA()[pri:0, instance:sample.SampleTest@174e1b69]" started-at="2023-01-02T21:32:42 IST" name="testA" finished-at="2023-01-02T21:32:42 IST" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-      </class> <!-- sample.SampleTest -->
-    </test> <!-- Test Basics 4 -->
-    <test started-at="2023-01-02T21:32:42 IST" name="Test Basics 2" finished-at="2023-01-02T21:32:42 IST" duration-ms="398">
-      <class name="sample.SampleTest2">
-        <test-method signature="testA()[pri:0, instance:sample.SampleTest2@4f966719]" started-at="2023-01-02T21:32:42 IST" name="testA" finished-at="2023-01-02T21:32:42 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-      </class> <!-- sample.SampleTest2 -->
-    </test> <!-- Test Basics 2 -->
   </suite> <!-- Practice Suite -->
 </testng-results>
