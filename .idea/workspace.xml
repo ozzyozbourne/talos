@@ -7,22 +7,6 @@
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngOutput/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +216,7 @@
       <workItem from="1672777939502" duration="1289000" />
       <workItem from="1672782642150" duration="1471000" />
       <workItem from="1672786196873" duration="32000" />
-      <workItem from="1672796510510" duration="1874000" />
+      <workItem from="1672796510510" duration="2843000" />
     </task>
     <servers />
   </component>

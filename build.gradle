@@ -36,6 +36,10 @@ dependencies {
 
 reporting.baseDir = 'gradleOutput'
 
+tasks.withType(JavaCompile).configureEach {
+    options.fork = true
+}
+
 test {
 
     if (System.getProperty('server') == 'remote')
