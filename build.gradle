@@ -47,8 +47,7 @@ test {
     else
         environment 'PLAYWRIGHT_BROWSERS_PATH', "$projectDir/pw-browsers"
 
-    systemProperties(['tier':System.getProperty('tier'), 'browser':System.getProperty('browser'),
-                      'product':System.getProperty('product'), 'server':System.getProperty('server')])
+    systemProperties(System.getProperties().asImmutable())
     useTestNG(){
         setUseDefaultListeners true
         suites "src/test/resources/testgnxmls/$project.xmlfile"
