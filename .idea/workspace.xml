@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngOutput/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +45,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -140,11 +169,6 @@
     </configuration>
     <configuration name="rsap [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
-        <option name="env">
-          <map>
-            <entry key="PLAYWRIGHT_BROWSERS_PATH" value="$PROJECT_DIR$/pw-browsers" />
-          </map>
-        </option>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
@@ -205,12 +229,19 @@
       <workItem from="1672669096464" duration="3736000" />
       <workItem from="1672740318499" duration="679000" />
       <workItem from="1672751338245" duration="12620000" />
-      <workItem from="1672777939502" duration="420000" />
+      <workItem from="1672777939502" duration="1289000" />
+      <workItem from="1672782642150" duration="1471000" />
+      <workItem from="1672786196873" duration="32000" />
+      <workItem from="1672796510510" duration="1874000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:io.qameta.allure:allure-java-commons" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -21,6 +21,7 @@ dependencies {
     implementation 'org.yaml:snakeyaml:1.33'
     implementation 'org.apache.httpcomponents.client5:httpclient5:5.2.1'
 
+    testImplementation 'com.aventstack:extentreports:5.0.9'
     testImplementation 'org.testng:testng:7.7.0'
     testImplementation 'io.rest-assured:rest-assured:5.3.0'
     testImplementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.19.0'
@@ -36,8 +37,14 @@ dependencies {
 reporting.baseDir = 'gradleOutput'
 
 test {
+
+    if (System.getProperty('server') == 'remote')
+        environment 'SELENIUM_REMOTE_URL', System.getProperty('url')
+    else
+        environment 'PLAYWRIGHT_BROWSERS_PATH', "$projectDir/pw-browsers"
+
     systemProperties(['tier':System.getProperty('tier'), 'browser':System.getProperty('browser'),
-                      'product':System.getProperty('product')])
+                      'product':System.getProperty('product'), 'server':System.getProperty('server')])
     useTestNG(){
         setUseDefaultListeners true
         suites "src/test/resources/testgnxmls/$project.xmlfile"
