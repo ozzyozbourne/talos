@@ -23,6 +23,10 @@ dependencies {
     implementation 'com.github.ozlerhakan:poiji:4.0.0'
     implementation 'io.github.ozzyozbourne:dsapi:5.0.0'
     implementation 'org.jooq:jooq:3.17.6'
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'com.google.guava:guava:31.1-jre'
 
     testImplementation 'com.aventstack:extentreports:5.0.9'
     testImplementation 'org.testng:testng:7.7.0'
