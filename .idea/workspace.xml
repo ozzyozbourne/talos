@@ -5,8 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/00d29fc6-3110-44a0-a051-ab6ace8630db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d8998c7-cc3e-47d9-9cb6-9f3c6f2ec443-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1eec7273-c0b7-44f3-8223-d2fa7f442d9c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/28195fc6-ab16-465c-83ed-6561485158d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/299c3349-9499-4912-a474-90678f9649a2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a3c18e2-b2ec-4b75-89a5-0ac22d14150b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5004b697-f5e2-4596-a63f-089b3f62e719-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/616018fa-fe08-4fe6-8ebe-4e1c27c27757-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6740216d-6104-4611-bd5e-d5e7b018f8ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7006c13a-0324-4c1a-bd10-a3595dae1386-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70404619-b04f-4a08-8efb-b031e4003aa6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/77beb11f-1293-49dc-9e0a-3723d4a7c73e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/874460d3-004d-41ba-ae35-37a1a9c3796a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/965c3888-3fd3-40d5-8f6e-83ce4a00618f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/97ca01da-9ff8-408b-9241-c051afb2c846-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/99a0f9d3-9518-42af-a719-2b708de1fcfe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9d692921-0419-4fde-a2b3-9c9b1200674e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a6ca17d1-6c32-43dc-a4cc-b17411047836-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/afd21742-a560-45a3-a5a5-6398eec5517e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b30af546-d52a-4bd2-82ac-9c6e23d6cded-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bab7baf5-a0e0-40d6-a3f8-adbfc4df4f2d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bccab096-d8bc-433a-a802-a7374e99e89b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c33547f1-8ee3-4848-ba64-2ec1bc2aa301-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d360f09a-2fa1-41cb-a167-86e2f10decc0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d84564ca-6215-4b53-9456-d1725a07dc6d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef203d46-5edf-4500-8f74-de709eb33b0b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f49e361f-156b-4944-96c5-0a8f885dee5b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f7b5b9bb-9033-4446-a335-a3eae5f69246-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ff186b16-7ef1-4dc6-ac52-dc87fa40b2df-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/0a1cf5d9e744039905631658d68ed45c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/3b1d3a8270cfed736e66cb274cd23b93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/7ed9a9079f4ac4cdfe93f931b9a651cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/bad8a93669ce04e22f59fdeef06b3598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/build-cache.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/e8bc4577ebfef5de5197553d1f8424e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/feb172688b5f3b1e807efee3a2e18a46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-cache/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/test-cases/17b952397dcf3884.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/test-cases/2465ecea50292329.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/test-cases/84c227774535d968.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/test-cases/994aa0344a862cbf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/allure-report/allureReport/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/classes/sample.SampleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradleOutput/tests/test/packages/sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/Practice Suite/Test Basics 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/junitreports/TEST-sample.SampleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/Test Basics 1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/Practice Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngOutput/testng.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +159,18 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rsap" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -55,8 +183,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,64 +221,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.rsap [test]">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="rsap.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sample.SampleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="rsap [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.talos [build]">
     <configuration name="rsap [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -172,30 +243,104 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="/home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rsap.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="talos [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="talos [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="talos [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="talos [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.rsap [dependencies]" />
+      <item itemvalue="Gradle.talos [allureReport]" />
+      <item itemvalue="Gradle.talos [allureServe]" />
+      <item itemvalue="Gradle.talos [check]" />
+      <item itemvalue="Gradle.talos [build]" />
       <item itemvalue="Gradle.rsap [test]" />
-      <item itemvalue="Gradle.SampleTest" />
-      <item itemvalue="TestNG./home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/test.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.talos [build]" />
+        <item itemvalue="Gradle.talos [allureServe]" />
+        <item itemvalue="Gradle.talos [allureReport]" />
+        <item itemvalue="Gradle.talos [check]" />
         <item itemvalue="Gradle.rsap [test]" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.rsap [dependencies]" />
-        <item itemvalue="TestNG./home/ozzy/Videos/Auto/Api/rsap/src/test/resources/testgnxmls/test.xml" />
-        <item itemvalue="Gradle.SampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +362,9 @@
       <workItem from="1672782642150" duration="1471000" />
       <workItem from="1672786196873" duration="32000" />
       <workItem from="1672796510510" duration="3072000" />
-      <workItem from="1672816257623" duration="690000" />
+      <workItem from="1672816257623" duration="2246000" />
+      <workItem from="1672910965997" duration="2160000" />
+      <workItem from="1672936072631" duration="349000" />
     </task>
     <servers />
   </component>
