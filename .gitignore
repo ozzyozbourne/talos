@@ -6,6 +6,7 @@ build/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
+.idea/workspace.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
@@ -48,3 +49,5 @@ pw-browsers
 build-cache
 gradleOutput
 testngOutput
+extentreport
+screenshots
