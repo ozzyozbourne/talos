@@ -48,3 +48,5 @@ pw-browsers
 build-cache
 gradleOutput
 testngOutput
+extentreport
+screenshots

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,31 +104,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.talos [build]">
-    <configuration name="rsap [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.test (1)">
     <configuration name="talos [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="talos [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="talos [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +185,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="check" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,20 +195,43 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;extentreport.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.talos [test]" />
+      <item itemvalue="Gradle.test (1)" />
       <item itemvalue="Gradle.talos [allureReport]" />
       <item itemvalue="Gradle.talos [allureServe]" />
-      <item itemvalue="Gradle.talos [check]" />
       <item itemvalue="Gradle.talos [build]" />
-      <item itemvalue="Gradle.rsap [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.test (1)" />
+        <item itemvalue="Gradle.talos [test]" />
         <item itemvalue="Gradle.talos [build]" />
         <item itemvalue="Gradle.talos [allureServe]" />
         <item itemvalue="Gradle.talos [allureReport]" />
-        <item itemvalue="Gradle.talos [check]" />
-        <item itemvalue="Gradle.rsap [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +255,9 @@
       <workItem from="1672796510510" duration="3072000" />
       <workItem from="1672816257623" duration="2246000" />
       <workItem from="1672910965997" duration="2160000" />
-      <workItem from="1672936072631" duration="3836000" />
+      <workItem from="1672936072631" duration="4663000" />
+      <workItem from="1672982497945" duration="4378000" />
+      <workItem from="1673017101190" duration="466000" />
     </task>
     <servers />
   </component>
