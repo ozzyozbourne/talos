@@ -1,9 +1,9 @@
 plugins {
     id 'java'
+    id 'idea'
     id 'io.qameta.allure' version '2.11.2'
     id 'io.freefair.lombok' version '6.6.1'
     id 'com.google.protobuf' version '0.9.1'
-    id 'idea'
 }
 
 group 'org.example'
@@ -55,6 +55,12 @@ dependencies {
     implementation 'net.datafaker:datafaker:1.7.0'
     implementation 'io.grpc:grpc-protobuf:1.51.0'
     implementation 'io.grpc:grpc-stub:1.51.0'
+    implementation 'com.jayway.jsonpath:json-path:2.7.0'
+    implementation 'org.postgresql:postgresql:42.5.1'
+    implementation 'org.mongodb:mongodb-driver-sync:4.8.1'
+    implementation 'dev.morphia.morphia:morphia-core:2.3.0'
+    implementation 'redis.clients:jedis:4.3.1'
+    implementation 'com.rabbitmq:amqp-client:5.16.0'
 
     testImplementation 'org.assertj:assertj-core:3.23.1'
     testImplementation 'io.rest-assured:rest-assured:5.3.0'
@@ -70,12 +76,10 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 test {
-
     if (System.getProperty('server') == 'remote')
         environment 'SELENIUM_REMOTE_URL', System.getProperty('url')
     else
         environment 'PLAYWRIGHT_BROWSERS_PATH', "$projectDir/pw-browsers"
-
     systemProperties(System.getProperties().asImmutable())
     useTestNG(){
         setUseDefaultListeners true
