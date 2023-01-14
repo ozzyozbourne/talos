@@ -1,14 +1,18 @@
 package org.example.pojos;
 
-import io.qameta.allure.internal.shadowed.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Data;
 
 @Data
-@JsonPropertyOrder({"elementName", "type", "locatorValue"})
+@JsonPropertyOrder({"ELEMENT_NAME", "TYPE", "LOCATOR_VALUE"})
 public class PgObjCSV {
 
-    private final String elementName;
-    private final String type;
-    private final String locatorValue;
+    @JsonProperty(value = "ELEMENT_NAME")
+    private String elementName;
+    @JsonProperty(value = "TYPE")
+    private String type;
+    @JsonProperty(value = "LOCATOR_VALUE")
+    private String locatorValue;
 
 }

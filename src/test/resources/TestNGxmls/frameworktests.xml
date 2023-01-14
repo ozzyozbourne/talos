@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameWorks Test" parallel="methods" thread-count="1">
+
+    <test name="Interpolation Test">
+        <classes>
+            <class name="frameworktests.InterpolationTests"/>
+        </classes>
+    </test>
+
+    <test name="Yaml Reader Test">
+        <classes>
+            <class name="frameworktests.YamlReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="Toml Reader Test">
+        <classes>
+            <class name="frameworktests.TomlReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="Csv Reader Test">
+        <classes>
+            <class name="frameworktests.CsvReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="PoijiXlsx Reader Test">
+        <classes>
+            <class name="frameworktests.PoijiXlsxReaderTests"/>
+        </classes>
+    </test>
+
+</suite>

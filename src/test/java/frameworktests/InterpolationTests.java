@@ -7,7 +7,15 @@ import org.testng.annotations.Test;
 import static org.example.utils.Interpolation.*;
 
 @Test
-public class InterpolationTests {
+public final class InterpolationTests {
+
+    public void replaceOneTestNone(){
+        val input = "replacement none";
+        val replacement = "test";
+        val out = replaceOne(input, replacement);
+        System.out.println(out);
+        Assert.assertEquals(out, "replacement none");
+    }
 
     public void replaceOneTestA(){
         val input = "replacement one ${0}";
