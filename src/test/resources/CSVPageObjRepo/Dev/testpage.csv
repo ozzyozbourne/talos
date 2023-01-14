@@ -1,0 +1,4 @@
+ELEMENT_NAME        | TYPE  | LOCATOR_VALUE
+UserName            | xpath | //h1[@class = 'heello']dev
+Password            | xpath | //a[contains(text(), 'yello')]dev
+Sign-in             | css   | #singinbutton dev
