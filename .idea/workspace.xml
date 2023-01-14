@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/Interpolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/Interpolation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -249,7 +250,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="5450000" />
+      <workItem from="1673695392808" duration="7868000" />
     </task>
     <servers />
   </component>
