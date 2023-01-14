@@ -5,6 +5,9 @@ import org.apache.commons.text.StringSubstitutor;
 
 public final class Interpolation {
 
+    private Interpolation() {
+    }
+
     public static String replaceOne(final String input, final String replace){
         return new StringSubstitutor(ImmutableMap.of("0", replace)).replace(input);
     }
