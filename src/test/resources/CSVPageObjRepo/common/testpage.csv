@@ -2,3 +2,4 @@ ELEMENT_NAME        | TYPE  | LOCATOR_VALUE
 UserName            | xpath | //h1[@class = 'heello']common
 Password            | xpath | //a[contains(text(), 'yello')]common
 Sign-in             | css   | #singinbutton common
+OnlyCommon          | css   | commons only
