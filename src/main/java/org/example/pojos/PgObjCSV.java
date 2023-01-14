@@ -1,9 +1,11 @@
 package org.example.pojos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Data;
 
 @Data
+@JsonPropertyOrder({"ELEMENT_NAME", "TYPE", "LOCATOR_VALUE"})
 public class PgObjCSV {
 
     @JsonProperty(value = "ELEMENT_NAME")
