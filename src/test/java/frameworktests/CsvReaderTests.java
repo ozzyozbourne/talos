@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
+import static org.example.pgobjrepofunc.csv.CSVLoc.getInterpolatedLoc;
 import static org.example.readers.CSV.getPojoCsvList;
 
 @Test
@@ -43,6 +44,29 @@ public final class CsvReaderTests {
         Assert.assertEquals(lThree.getLocatorValue().trim(), "#singinbutton");
 
         Assert.assertEquals(act.size(), 3);
+    }
+
+    public void csvPageObjRepoTestOne() {
+        val pair  = getInterpolatedLoc("testpage", "OnlyCommon", "TUK", "TAAKA");
+        Assert.assertEquals(pair.left, "css");
+        Assert.assertEquals(pair.right, "TAAKA commons only TUK TUK");
+    }
+
+    public void csvPageObjRepoTestTwo() {
+        val pair  = getInterpolatedLoc("testpage", "Password");
+        Assert.assertEquals(pair.left, "xpath");
+        Assert.assertEquals(pair.right, "//a[contains(text(), 'yello')]dev");
+    }
+
+    @Test(expectedExceptions = IllegalStateException.class)
+    public void csvPageObjRepoTestException() {
+        val pair  = getInterpolatedLoc("testpage", "Password", "one", "two", "three", "four");
+    }
+
+    public void csvPageObjRepoTestThree() {
+        val pair  = getInterpolatedLoc("testpage", "Four", "ONE", "TWO", "THREE");
+        Assert.assertEquals(pair.left, "xpath");
+        Assert.assertEquals(pair.right, "THREETHREEONETHREETWOTWOONE");
     }
 
 }

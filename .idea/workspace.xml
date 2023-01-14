@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/Common/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/common/testpage.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/Dev/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/dev/testpage.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/Prod/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/prod/testpage.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/Stage/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/stage/testpage.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pgobjrepofunc/csv/CSVLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pgobjrepofunc/csv/CSVLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/InterpolationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/InterpolationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/common/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/common/testpage.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,19 +115,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.talos [test]">
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.etster.C" />
-      <module name="rsap.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.etster.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.readers.Tml" />
       <module name="rsap.main" />
@@ -142,23 +128,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="talos [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CsvReaderTests.csvPageObjRepoTestTwo (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;frameworktests.CsvReaderTests.csvPageObjRepoTestTwo&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CsvReaderTests.test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;frameworktests.CsvReaderTests.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InterpolationTests.replaceOneTestNone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;frameworktests.InterpolationTests.replaceOneTestNone&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -184,43 +218,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;extentsetup.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Tml" />
-      <item itemvalue="Application.C" />
+      <item itemvalue="Gradle.CsvReaderTests.csvPageObjRepoTestTwo (1)" />
+      <item itemvalue="Gradle.CsvReaderTests.test (1)" />
+      <item itemvalue="Gradle.InterpolationTests.replaceOneTestNone" />
       <item itemvalue="Gradle.talos [test]" />
-      <item itemvalue="Gradle.test (1)" />
-      <item itemvalue="Gradle.talos [build]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.talos [test]" />
+        <item itemvalue="Gradle.CsvReaderTests.test (1)" />
+        <item itemvalue="Gradle.CsvReaderTests.csvPageObjRepoTestTwo (1)" />
+        <item itemvalue="Gradle.InterpolationTests.replaceOneTestNone" />
         <item itemvalue="Application.Tml" />
-        <item itemvalue="Application.C" />
-        <item itemvalue="Gradle.talos [build]" />
-        <item itemvalue="Gradle.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +267,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="27456000" />
+      <workItem from="1673695392808" duration="29770000" />
     </task>
     <servers />
   </component>

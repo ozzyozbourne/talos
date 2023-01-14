@@ -30,7 +30,7 @@ public final  class CSVLoc {
            optionalPgObjCSVS =  getPojoCsvList(pathToFile, PgObjCSV.class);
            Assertions.assertThat(optionalPgObjCSVS).as("RETURN NULL POJO LIST!").isPresent();
            pgObjCSV = searchInPojoList(optionalPgObjCSVS.get(), LocatorName);
-        }catch (IOException e) {
+        }catch (RuntimeException | IOException e) {
             pathToFile = PATH_TO_DIR + "common" + File.separator + fileName + ".csv";
             try {
                 optionalPgObjCSVS =  getPojoCsvList(pathToFile, PgObjCSV.class);
@@ -45,7 +45,7 @@ public final  class CSVLoc {
         return new ImmutablePair<>(pgObjCSV.getType().trim(), pgObjCSV.getLocatorValue().trim());
     }
 
-    private static PgObjCSV searchInPojoList(List<PgObjCSV> pgObjCSVList, String LocatorName){
+    private static PgObjCSV searchInPojoList(List<PgObjCSV> pgObjCSVList, String LocatorName) throws RuntimeException{
        return pgObjCSVList.parallelStream().filter(l -> l.getElementName().trim().equals(LocatorName)).findFirst()
                 .orElseThrow(() -> new RuntimeException("No such locator"));
     }
@@ -53,16 +53,13 @@ public final  class CSVLoc {
     public static ImmutablePair<String, String> getInterpolatedLoc(String fileName, String LocatorName, String ... replacements){
         ImmutablePair<String, String> immutablePair = getPair(fileName, LocatorName);
         System.out.println(immutablePair.left + "\t" + immutablePair.right);
-        if (replacements == null)
-            return immutablePair;
-        else{
-            final String interpolatedString = switch (replacements.length){
-                case 1   -> replaceOne(immutablePair.right, replacements[0]);
-                case 2   -> replaceTwo(immutablePair.right, replacements[0], replacements[1]);
-                case 3   -> replaceThree(immutablePair.right, replacements[0], replacements[1], replacements[2]);
-                default  -> throw new IllegalStateException("To many replacements only 3 are supported");
+        final String interpolatedString = switch (replacements.length){
+            case 0   -> immutablePair.right;
+            case 1   -> replaceOne(immutablePair.right, replacements[0]);
+            case 2   -> replaceTwo(immutablePair.right, replacements[0], replacements[1]);
+            case 3   -> replaceThree(immutablePair.right, replacements[0], replacements[1], replacements[2]);
+            default  -> throw new IllegalStateException("To many replacements only 3 are supported");
             };
-            return new ImmutablePair<>(immutablePair.left, interpolatedString);
-        }
+        return new ImmutablePair<>(immutablePair.left, interpolatedString);
     }
 }
