@@ -30,7 +30,7 @@ public final class Tml {
         };
     }
 
-    private static <T> T tmlToJson(String pathToGet, String pathToFile){
+    private static <T> T tmlToJson(final String pathToGet, final String pathToFile){
         Optional<T> t = Optional.empty();
         try {
             final JsonNode jsonNode = new TomlMapper().readTree(new File(pathToFile));

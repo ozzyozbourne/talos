@@ -32,7 +32,7 @@ public final class Yml {
         };
     }
 
-    private static <T> T ymlToJson(String pathToGet, String pathToFile){
+    private static <T> T ymlToJson(final String pathToGet, final String pathToFile){
         Optional<T> t = Optional.empty();
         try {
             final JsonNode jsonNode = new ObjectMapper().valueToTree(new Yaml().load(new FileReader(pathToFile)));
@@ -45,7 +45,7 @@ public final class Yml {
         return t.get();
     }
 
-    public static <T> T getValue(String pathJson) {
+    public static <T> T getValue(final String pathJson) {
         Assertions.assertThat(path()).as("WRONG TIER VALUE!").isNotEmpty();
         T t;
         try {

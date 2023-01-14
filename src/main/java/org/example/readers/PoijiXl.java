@@ -14,8 +14,8 @@ public final class PoijiXl {
     private PoijiXl() {
     }
 
-    public static <T> List<T> getPojoFromXlsx(String fileName, String sheetName, Class<T> t) {
-        String path = PATH_TO_DIR + fileName + ".xlsx";
+    public static <T> List<T> getPojoFromXlsx(final String fileName, final String sheetName, final Class<T> t) {
+        final String path = PATH_TO_DIR + fileName + ".xlsx";
         final PoijiOptions options = PoijiOptions.PoijiOptionsBuilder.settings().sheetName(sheetName).build();
         return Poiji.fromExcel(new File(path), t, options);
     }
