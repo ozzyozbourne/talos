@@ -1,7 +1,9 @@
 plugins {
     id 'java'
+    id 'idea'
     id 'io.qameta.allure' version '2.11.2'
     id 'io.freefair.lombok' version '6.6.1'
+    id 'com.google.protobuf' version '0.9.1'
 }
 
 group 'org.example'
@@ -11,8 +13,27 @@ repositories {
     mavenCentral()
 }
 
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.21.7"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.51.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
+}
+
 dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.44.2'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53'
+    runtimeOnly 'io.grpc:grpc-netty-shaded:1.51.0'
+
     implementation 'com.google.dagger:dagger:2.44.2'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.14.1'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.1'
@@ -27,13 +48,22 @@ dependencies {
     implementation 'org.apache.poi:poi:5.2.3'
     implementation 'org.apache.poi:poi-ooxml:5.2.3'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.apache.commons:commons-text:1.10.0'
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'org.testng:testng:7.7.0'
     implementation 'com.aventstack:extentreports:5.0.9'
     implementation 'ch.qos.logback:logback-classic:1.4.5'
     implementation 'net.datafaker:datafaker:1.7.0'
+    implementation 'io.grpc:grpc-protobuf:1.51.0'
+    implementation 'io.grpc:grpc-stub:1.51.0'
+    implementation 'com.jayway.jsonpath:json-path:2.7.0'
+    implementation 'org.postgresql:postgresql:42.5.1'
+    implementation 'org.mongodb:mongodb-driver-sync:4.8.1'
+    implementation 'dev.morphia.morphia:morphia-core:2.3.0'
+    implementation 'redis.clients:jedis:4.3.1'
+    implementation 'com.rabbitmq:amqp-client:5.16.0'
+    implementation 'org.assertj:assertj-core:3.23.1'
 
-    testImplementation 'org.assertj:assertj-core:3.23.1'
     testImplementation 'io.rest-assured:rest-assured:5.3.0'
     testImplementation 'com.microsoft.playwright:playwright:1.28.1'
     testImplementation 'org.seleniumhq.selenium:selenium-java:4.7.2'
@@ -47,12 +77,10 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 test {
-
     if (System.getProperty('server') == 'remote')
         environment 'SELENIUM_REMOTE_URL', System.getProperty('url')
     else
         environment 'PLAYWRIGHT_BROWSERS_PATH', "$projectDir/pw-browsers"
-
     systemProperties(System.getProperties().asImmutable())
     useTestNG(){
         setUseDefaultListeners true
