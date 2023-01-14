@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.example.utils.Interpolation.*;
 
 @Test
-public class InterpolationTests {
+public final class InterpolationTests {
 
     public void replaceOneTestA(){
         val input = "replacement one ${0}";

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-    </list>
+    <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tml">
+  <component name="RunManager" selected="Gradle.talos [test]">
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.etster.C" />
       <module name="rsap.main" />
@@ -208,11 +206,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.talos [test]" />
         <item itemvalue="Application.Tml" />
         <item itemvalue="Application.C" />
         <item itemvalue="Gradle.talos [build]" />
         <item itemvalue="Gradle.test (1)" />
-        <item itemvalue="Gradle.talos [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +246,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="9293000" />
+      <workItem from="1673695392808" duration="10340000" />
     </task>
     <servers />
   </component>

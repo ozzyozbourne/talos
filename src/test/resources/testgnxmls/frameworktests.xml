@@ -8,4 +8,28 @@
         </classes>
     </test>
 
+    <test name="Yaml Reader Test">
+        <classes>
+            <class name="frameworktests.YamlReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="Toml Reader Test">
+        <classes>
+            <class name="frameworktests.TomlReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="Csv Reader Test">
+        <classes>
+            <class name="frameworktests.CsvReaderTests"/>
+        </classes>
+    </test>
+
+    <test name="PoijiXlsx Reader Test">
+        <classes>
+            <class name="frameworktests.PoijiXlsxReaderTests"/>
+        </classes>
+    </test>
+
 </suite>
