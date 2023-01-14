@@ -8,6 +8,13 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
 import com.google.common.collect.ImmutableMap;
 import lombok.val;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.openqa.selenium.support.events.WebDriverListener;
+import org.openqa.selenium.support.locators.RelativeLocator;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -20,7 +27,7 @@ public class test {
     private static final String reportPath = "extentreports/index.html";
     private static final String configPath = "src/main/resources/extentconfig/extentconfig.json";
     @Test
-    public void test() throws IOException, InterruptedException {
+    public void test() throws Throwable {
 
         val spark = new ExtentSparkReporter(reportPath)
                 .viewConfigurer().viewOrder().as(new ViewName[]{ViewName.DASHBOARD, ViewName.TEST}).apply();
@@ -47,13 +54,17 @@ public class test {
         val re = extentTest2.createNode("new node");
         re.info("sldkfj");
         extent.flush();
+            System.gc();
+            super.finalize();
 
-    }
+        }
 
     @Test
     public void testNgReprtedtest(){
        val s =  MarkupHelper.createOrderedList(List.of("sdvj", "sdfh")).getMarkup();
         System.out.println(s);
         Reporter.log(s);
+      String  sr= "lknesdc";
+               String a = sr.charAt(2);
     }
 }
