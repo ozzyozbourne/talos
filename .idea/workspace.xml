@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pgobjrepofunc/csv/CSVLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pgobjrepofunc/csv/CSVLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/InterpolationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/InterpolationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/common/testpage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CSVPageObjRepo/common/testpage.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/PoijiXlsxReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/PoijiXlsxReaderTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/ozzy/amuthan",
+    "last_opened_file_path": "/home/ozzy/Videos/Auto/talos_automaton/talos/src/test/resources/XLSXFiles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+      <recent name="$PROJECT_DIR$/src/test/resources/XLSXFiles" />
+      <recent name="$PROJECT_DIR$/src/test/resources/XLSXPageObjRepo/stage" />
+      <recent name="$PROJECT_DIR$/src/test/resources/XLSXPageObjRepo/prod" />
+      <recent name="$PROJECT_DIR$/src/test/resources/XLSXPageObjRepo/dev" />
+      <recent name="$PROJECT_DIR$/src/test/resources/XLSXPageObjRepo/common" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.talos [test]">
@@ -267,7 +269,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="29770000" />
+      <workItem from="1673695392808" duration="35781000" />
     </task>
     <servers />
   </component>

@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-import static org.example.pgobjrepofunc.csv.CSVLoc.getInterpolatedLoc;
 import static org.example.readers.CSV.getPojoCsvList;
+import static org.example.utils.Interpolation.getLocatorCSV;
 
 @Test
 public final class CsvReaderTests {
@@ -47,26 +47,36 @@ public final class CsvReaderTests {
     }
 
     public void csvPageObjRepoTestOne() {
-        val pair  = getInterpolatedLoc("testpage", "OnlyCommon", "TUK", "TAAKA");
+        val pair  = getLocatorCSV("testpage", "OnlyCommon", "TUK", "TAAKA");
         Assert.assertEquals(pair.left, "css");
         Assert.assertEquals(pair.right, "TAAKA commons only TUK TUK");
     }
 
     public void csvPageObjRepoTestTwo() {
-        val pair  = getInterpolatedLoc("testpage", "Password");
+        val pair  = getLocatorCSV("testpage", "Password");
         Assert.assertEquals(pair.left, "xpath");
         Assert.assertEquals(pair.right, "//a[contains(text(), 'yello')]dev");
     }
 
     @Test(expectedExceptions = IllegalStateException.class)
     public void csvPageObjRepoTestException() {
-        val pair  = getInterpolatedLoc("testpage", "Password", "one", "two", "three", "four");
+        val pair  = getLocatorCSV("testpage", "Password", "one", "two", "three", "four");
     }
 
     public void csvPageObjRepoTestThree() {
-        val pair  = getInterpolatedLoc("testpage", "Four", "ONE", "TWO", "THREE");
+        val pair  = getLocatorCSV("testpage", "Four", "ONE", "TWO", "THREE");
         Assert.assertEquals(pair.left, "xpath");
         Assert.assertEquals(pair.right, "THREETHREEONETHREETWOTWOONE");
+    }
+
+    @Test(expectedExceptions = AssertionError.class)
+    public void csvPageObjRepoTestNoFile() {
+        val pair  = getLocatorCSV("wrongpage", "Four", "ONE", "TWO", "THREE");
+    }
+
+    @Test(expectedExceptions = RuntimeException.class)
+    public void csvPageObjRepoTestNoLocator() {
+        val pair  = getLocatorCSV("testpage", "wronglocator", "ONE", "TWO", "THREE");
     }
 
 }
