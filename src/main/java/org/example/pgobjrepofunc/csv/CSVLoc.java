@@ -28,13 +28,13 @@ public final  class CSVLoc {
         Optional<List<PgObjCSV>> optionalPgObjCSVS;
         try {
            optionalPgObjCSVS =  getPojoCsvList(pathToFile, PgObjCSV.class);
-           Assertions.assertThat(optionalPgObjCSVS).as("RETURN NULL POJO LIST!").isPresent();
+           Assertions.assertThat(optionalPgObjCSVS).as("NULL POJO LIST!").isPresent();
            pgObjCSV = searchInPojoList(optionalPgObjCSVS.get(), LocatorName);
         }catch (RuntimeException | IOException e) {
             pathToFile = PATH_TO_DIR + "common" + File.separator + fileName + ".csv";
             try {
                 optionalPgObjCSVS =  getPojoCsvList(pathToFile, PgObjCSV.class);
-                Assertions.assertThat(optionalPgObjCSVS).as("RETURN NULL POJO LIST!").isPresent();
+                Assertions.assertThat(optionalPgObjCSVS).as("NULL POJO LIST!").isPresent();
                 pgObjCSV = searchInPojoList(optionalPgObjCSVS.get(), LocatorName);
             }catch (IOException ef) {
                 ef.printStackTrace();

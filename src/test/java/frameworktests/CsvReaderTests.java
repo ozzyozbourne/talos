@@ -69,4 +69,14 @@ public final class CsvReaderTests {
         Assert.assertEquals(pair.right, "THREETHREEONETHREETWOTWOONE");
     }
 
+    @Test(expectedExceptions = AssertionError.class)
+    public void csvPageObjRepoTestNoFile() {
+        val pair  = getInterpolatedLoc("wrongpage", "Four", "ONE", "TWO", "THREE");
+    }
+
+    @Test(expectedExceptions = RuntimeException.class)
+    public void csvPageObjRepoTestNoLocator() {
+        val pair  = getInterpolatedLoc("testpage", "wronglocator", "ONE", "TWO", "THREE");
+    }
+
 }
