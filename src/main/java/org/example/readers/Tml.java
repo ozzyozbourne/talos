@@ -16,7 +16,7 @@ import java.util.function.Function;
 
 public final class Tml {
 
-    private final static String PATH_TO_DIR = Constants.PATH_TEST_RC + "TOML" + File.separator;
+    private final static String PATH_TO_DIR = Constants.PATH_TEST_RC + "TOMLFiles" + File.separator;
 
     private Tml() {
     }

@@ -18,7 +18,7 @@ import java.util.function.Function;
 
 public final class Yml {
 
-    private final static String PATH_TO_DIR = Constants.PATH_TEST_RC + "YAML" + File.separator;
+    private final static String PATH_TO_DIR = Constants.PATH_TEST_RC + "YAMLFiles" + File.separator;
 
     private Yml() {
     }

@@ -84,7 +84,7 @@ test {
     systemProperties(System.getProperties().asImmutable())
     useTestNG(){
         setUseDefaultListeners true
-        suites "src/test/resources/testgnxmls/$project.xmlfile"
+        suites "src/test/resources/TestNGxmls/$project.xmlfile"+ '.xml'
         setOutputDirectory file("$projectDir/testngOutput")
     }
     testLogging {

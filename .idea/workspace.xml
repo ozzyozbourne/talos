@@ -6,10 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojos/PgObjCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojos/PgObjCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readers/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/CsvReaderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/frameworktests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testgnxmls/frameworktests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readers/Tml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readers/Tml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/readers/Yml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/readers/Yml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TOML/COMMON.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TOMLFiles/COMMON.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TOML/DEV.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TOMLFiles/DEV.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TOML/PROD.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TOMLFiles/PROD.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TOML/STAGE.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TOMLFiles/STAGE.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/YAML/COMMON.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/YAMLFiles/COMMON.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/YAML/DEV.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/YAMLFiles/DEV.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/YAML/PROD.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/YAMLFiles/PROD.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/YAML/STAGE.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/YAMLFiles/STAGE.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/br.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/br.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/frameworktests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/frameworktests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testgnxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +266,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="21220000" />
+      <workItem from="1673695392808" duration="21983000" />
     </task>
     <servers />
   </component>
