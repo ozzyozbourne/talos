@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0289b65b-0f96-44ae-9121-5703b7c38e46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0e65ca0c-bb56-4a0a-8195-2b6d03bfaa7c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/19cf0d71-2c96-4b37-9123-b79d78ad6f3d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1cf2ced9-59df-47aa-a67a-d5958766168c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/21f175f3-b262-4329-a167-26df4236bbbf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/28dc6906-b593-404c-a8a7-1ea2e2926092-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/31add6c9-b43d-4ae4-9e1f-31f13ecdfc20-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3602f9ed-84c2-4382-be3f-4601f3fca076-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/39b60df8-01b0-4fb9-8ac3-3b3c6d0735cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/39c5279f-54c9-4b4e-bd2e-1edeb2c0d132-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3c9b0c52-81be-4318-af5b-349f9dac0435-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/53778246-63ce-4995-8e79-88b34585dec2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/544fb4fd-9671-44af-b4ea-c62072c4c85a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/599f98de-245b-4d03-9235-283b3e8337a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5d34bf12-dea0-4f98-a4ed-8b9c5d7c7fb9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5d476ea9-aec6-4839-8cf2-84ded91bcf5d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/64603af6-6bc7-4150-ba76-689f3c27e671-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/65ec6966-7dd6-478f-ab4a-a9d8b70792ae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6608f272-0e72-4b4d-8046-eb7470ddc48f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/77461450-3b0a-4696-8e3d-c67c1c0d9237-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a0df030-9b34-458d-8947-5af3c20db053-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8bed17e2-295e-42bc-b630-d0cb72247747-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8cdd2fac-062a-40d3-923c-8511c6d9da4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/99543e76-67fa-4021-b15e-6ceaf01a6626-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a5621c09-eb2b-453c-a67b-de3e42fd8e2b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ae95c42c-4da8-4a8f-89d8-9a94e0818d9e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b81d2a85-bbac-47bf-b767-263a82b0660a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba038631-642c-4d15-87e6-547c95fb3156-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bf403501-5cae-422a-a4d2-6b1ef8d836f7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d15f3a26-60bc-478e-9e17-96d498d67737-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d830ec93-3442-4d0f-84b8-b05a073d1301-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d913d202-4df1-4a88-b534-6d352c6483d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dd600480-6db8-4b22-a455-b35d2fdbd4e8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dea3b1a8-05eb-44e1-a103-079026947ee7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e87c0b4d-c57d-4666-968d-2bbe77b6a5d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f4a87980-6ca2-444b-bf23-0e0d476568a5-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +72,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rsap" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rsap" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -103,7 +143,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/XLSXFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.talos [test]">
+  <component name="RunManager" selected="Gradle.talos [allureServe]">
     <configuration name="PoijiXlsxReaderTests.xlsxPageObjRepoTestFour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -150,25 +190,23 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PoijiXlsxReaderTests.xlsxPageObjRepoTestTwo (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="talos [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;frameworktests.PoijiXlsxReaderTests.xlsxPageObjRepoTestTwo&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -207,17 +245,17 @@
     <list>
       <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestFour" />
       <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestThree" />
-      <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestTwo (1)" />
+      <item itemvalue="Gradle.talos [allureServe]" />
       <item itemvalue="Gradle.talos [test]" />
       <item itemvalue="TestNG./home/ozzy/Videos/Auto/talos_automaton/talos/src/test/resources/TestNGxmls/frameworktests.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.talos [allureServe]" />
         <item itemvalue="Gradle.talos [test]" />
         <item itemvalue="TestNG./home/ozzy/Videos/Auto/talos_automaton/talos/src/test/resources/TestNGxmls/frameworktests.xml" />
         <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestFour" />
         <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestThree" />
-        <item itemvalue="Gradle.PoijiXlsxReaderTests.xlsxPageObjRepoTestTwo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +293,7 @@
       <workItem from="1673350743541" duration="1140000" />
       <workItem from="1673695392808" duration="38059000" />
       <workItem from="1673769233567" duration="2589000" />
-      <workItem from="1673787550274" duration="4988000" />
+      <workItem from="1673787550274" duration="5291000" />
     </task>
     <servers />
   </component>
