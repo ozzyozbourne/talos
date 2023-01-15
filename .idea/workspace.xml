@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/PoijiXlsxReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/PoijiXlsxReaderTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,43 +114,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/XLSXPageObjRepo/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.talos [test]">
-    <configuration name="Tml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.readers.Tml" />
-      <module name="rsap.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.readers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsvReaderTests.csvPageObjRepoTestTwo (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;frameworktests.CsvReaderTests.csvPageObjRepoTestTwo&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.talos [build]">
     <configuration name="CsvReaderTests.test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,25 +138,65 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InterpolationTests.replaceOneTestNone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="talos [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;frameworktests.InterpolationTests.replaceOneTestNone&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="talos [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="talos [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -221,19 +223,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Tml" />
-      <item itemvalue="Gradle.CsvReaderTests.csvPageObjRepoTestTwo (1)" />
       <item itemvalue="Gradle.CsvReaderTests.test (1)" />
-      <item itemvalue="Gradle.InterpolationTests.replaceOneTestNone" />
+      <item itemvalue="Gradle.talos [allureServe]" />
+      <item itemvalue="Gradle.talos [clean]" />
       <item itemvalue="Gradle.talos [test]" />
+      <item itemvalue="Gradle.talos [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.talos [build]" />
+        <item itemvalue="Gradle.talos [clean]" />
         <item itemvalue="Gradle.talos [test]" />
+        <item itemvalue="Gradle.talos [allureServe]" />
         <item itemvalue="Gradle.CsvReaderTests.test (1)" />
-        <item itemvalue="Gradle.CsvReaderTests.csvPageObjRepoTestTwo (1)" />
-        <item itemvalue="Gradle.InterpolationTests.replaceOneTestNone" />
-        <item itemvalue="Application.Tml" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +271,7 @@
       <workItem from="1673339035366" duration="740000" />
       <workItem from="1673350106512" duration="86000" />
       <workItem from="1673350743541" duration="1140000" />
-      <workItem from="1673695392808" duration="35781000" />
+      <workItem from="1673695392808" duration="38059000" />
     </task>
     <servers />
   </component>
