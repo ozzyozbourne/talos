@@ -28,11 +28,11 @@ public final class XLSXLoc {
             pathToFile = PATH_TO_DIR + "common" + File.separator + fileName + ".xlsx";
             pgOjbXLSX = getPgOjbXLSXPojo(pathToFile, sheetName, LocatorName);
         }
-        return new ImmutablePair<>(pgOjbXLSX.getType().trim(), pgOjbXLSX.getLocatorValue().trim());
+        return new ImmutablePair<>(pgOjbXLSX.getType(), pgOjbXLSX.getLocatorValue());
     }
 
     private static PgOjbXLSX searchInPojoList(final List<PgOjbXLSX> pgOjbXLSXList, final String LocatorName) throws RuntimeException{
-        return pgOjbXLSXList.parallelStream().filter(l -> l.getElementName().trim().equals(LocatorName)).findFirst()
+        return pgOjbXLSXList.parallelStream().filter(l -> l.getElementName().equals(LocatorName)).findFirst()
                 .orElseThrow(() -> new RuntimeException("No such locator"));
     }
 

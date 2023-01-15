@@ -50,4 +50,4 @@ build-cache
 gradleOutput
 testngOutput
 extentreports
-
+allure-results
