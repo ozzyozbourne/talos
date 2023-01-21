@@ -13,6 +13,10 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    javaMainClass = "org.example.Main"
+}
+
 protobuf {
     protoc {
         artifact = "com.google.protobuf:protoc:3.21.7"
@@ -56,6 +60,8 @@ dependencies {
     implementation 'net.datafaker:datafaker:1.7.0'
     implementation 'io.grpc:grpc-protobuf:1.51.0'
     implementation 'io.grpc:grpc-stub:1.51.0'
+    implementation 'com.google.protobuf:protobuf-java:3.21.12'
+    implementation 'com.google.protobuf:protobuf-java-util:3.21.12'
     implementation 'com.jayway.jsonpath:json-path:2.7.0'
     implementation 'org.postgresql:postgresql:42.5.1'
     implementation 'org.mongodb:mongodb-driver-sync:4.8.1'
@@ -78,6 +84,13 @@ reporting.baseDir = 'gradleOutput'
 
 tasks.withType(JavaCompile).configureEach {
     options.fork = true
+}
+
+task runWithExec(type: Exec) {
+    dependsOn build
+    group = "Execution"
+    description = "Run the main class with ExecTask"
+    commandLine "java", "-classpath", sourceSets.main.runtimeClasspath.getAsPath(), javaMainClass
 }
 
 test {

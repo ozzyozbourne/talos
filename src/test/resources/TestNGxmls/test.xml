@@ -4,9 +4,8 @@
 
     <test name="Test Basics 1">
         <classes>
-            <class name="extentsetup.test"/>
+            <class name="frameworktests.GrpcTest"/>
         </classes>
     </test>
-
 
 </suite>

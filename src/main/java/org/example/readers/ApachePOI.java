@@ -1,4 +1,8 @@
 package org.example.readers;
 
-public class ApachePOI {
+public final class ApachePOI {
+
+    private ApachePOI() {
+    }
+
 }

@@ -10,4 +10,11 @@ public interface Constants {
    String SERVER = System.getProperty("server");
    String PRODUCT = System.getProperty("product");
 
+   String POSTGRES_PASSWORD = "qwerty";
+   String POSTGRES_USERNAME = "ozzyoz";
+   String DB_NAME = System.getProperty("dbname");
+   String SERVER_HOST = "172.17.0.2";
+   Integer PORT_NO = 5432;
+
+
 }

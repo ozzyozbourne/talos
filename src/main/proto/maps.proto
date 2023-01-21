@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package example.maps;
+
+option go_package = "github/ozzy/grpcgo/protoOut";
+option java_package = "org.example";
+option java_multiple_files = true;
+
+message IdWrapper {
+  uint32 id = 1;
+}
+
+message MapExample {
+  map<string, IdWrapper> ids  = 1;
+}
