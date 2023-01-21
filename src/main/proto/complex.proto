@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example.complex;
+
+option go_package = "github/ozzy/grpcgo/protoOut";
+option java_package = "org.example";
+option java_multiple_files = true;
+
+message Dummy {
+  uint32 id = 1;
+  string name = 2;
+}
+
+message Complex {
+  Dummy one_dummy = 1;
+  repeated Dummy dummies = 2;
+}

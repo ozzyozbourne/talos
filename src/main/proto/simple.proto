@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package example.simple;
+
+option java_package = "org.example";
+option java_multiple_files = true;
+
+message simple {
+  uint32 id = 1;
+  bool is_simple  = 2;
+  string name = 3;
+  repeated int32 sample_lists = 4;
+}
