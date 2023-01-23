@@ -28,8 +28,7 @@ public final class ApachePOI {
     public static synchronized void updateCellXlsx(final String fileName, final String sheetName, int row, int col, final String value) throws IOException {
         val fis = new FileInputStream(fileName);
         val workbook = WorkbookFactory.create(fis);
-        workbook.getSheet(sheetName).getRow(row)
-                .createCell(col, CellType.STRING).setCellValue(value);
+        workbook.getSheet(sheetName).getRow(row).createCell(col, CellType.STRING).setCellValue(value);
         clean(workbook, fis ,fileName);
     }
 

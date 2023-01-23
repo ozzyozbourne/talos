@@ -44,7 +44,7 @@ public class ApachePOITests {
     }
 
     public void writeToXlsxSix() throws IOException {
-        updateRowXlsx(FILE_PATH_TWO, "one", 0, List.of("A", "B"));
+        updateRowXlsx(FILE_PATH_TWO, "one", 1, List.of("A", "B"));
     }
 
     public void readAllFromXlsxTestOne() throws IOException {
