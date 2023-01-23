@@ -32,4 +32,10 @@
         </classes>
     </test>
 
+    <test name="ApachePOI Writer Reader Test">
+        <classes>
+            <class name="frameworktests.ApachePOITests"/>
+        </classes>
+    </test>
+
 </suite>
