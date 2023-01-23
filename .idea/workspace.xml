@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/writers/ApachePOI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/writers/ApachePOI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/ApachePOITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/ApachePOITests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/frameworktests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/frameworktests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +279,7 @@
       <workItem from="1674305588904" duration="52000" />
       <workItem from="1674305682171" duration="17332000" />
       <workItem from="1674386489511" duration="644000" />
-      <workItem from="1674457631972" duration="6957000" />
+      <workItem from="1674457631972" duration="7665000" />
     </task>
     <servers />
   </component>

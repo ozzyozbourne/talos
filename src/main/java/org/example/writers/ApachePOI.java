@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public final class ApachePOI {
@@ -32,6 +33,19 @@ public final class ApachePOI {
         val workbook = WorkbookFactory.create(fis);
         workbook.getSheet(sheetName).getRow(row)
                 .createCell(col, CellType.STRING).setCellValue(value);
+        fis.close();
+        val fos = new FileOutputStream(fileName);
+        workbook.write(fos);
+        workbook.close();
+        fos.close();
+    }
+
+    public static synchronized void updateRowXlsx(final String fileName, final String sheetName, int row, final List<String> colValue) throws IOException {
+        val fis = new FileInputStream(fileName);
+        val workbook = WorkbookFactory.create(fis);
+        val poiRow = workbook.getSheet(sheetName).createRow(row);
+        val atomicInt = new AtomicInteger(0);
+        colValue.forEach(val -> poiRow.createCell(atomicInt.getAndIncrement(), CellType.STRING).setCellValue(val));
         fis.close();
         val fos = new FileOutputStream(fileName);
         workbook.write(fos);
