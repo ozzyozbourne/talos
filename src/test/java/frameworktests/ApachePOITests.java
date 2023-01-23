@@ -39,6 +39,10 @@ public class ApachePOITests {
         updateCellXlsx(FILE_PATH, "three", 0, 4, "EA FIVE");
     }
 
+    public void writeToXlsxSeven() throws IOException {
+        updateCellXlsx(FILE_PATH, "three", 0, 8, "EA NONE");
+    }
+
     public void writeToXlsxFive() throws IOException {
         updateRowXlsx(FILE_PATH_TWO, "one", 0, List.of("A", "B", "C", "D"));
     }
