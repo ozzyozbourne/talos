@@ -15,9 +15,8 @@ public final class ApachePOI {
 
     public static Multimap<Integer, String> readAllFromXlsx(final String fileName, final String sheetName) throws IOException {
         Multimap<Integer, String> multimap = ArrayListMultimap.create();
-        try(val workbook = new XSSFWorkbook(new FileInputStream(fileName))){
-           val sheet = workbook.getSheet(sheetName);
-           sheet.forEach(r -> {val vr = r.getRowNum();
+        try(val fis = new FileInputStream(fileName); val workbook = new XSSFWorkbook(fis)){
+           workbook.getSheet(sheetName).forEach(r -> {val vr = r.getRowNum();
                r.forEach(c -> multimap.put(vr, c.getStringCellValue()));});
        }return multimap;
     }

@@ -2,7 +2,6 @@ package org.example.writers;
 
 import com.google.common.collect.Multimap;
 import lombok.val;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
