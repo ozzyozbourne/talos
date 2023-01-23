@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Practice Suite" parallel="tests" thread-count="6">
+<suite name="Apache Util Test Suite" parallel="methods" thread-count="6">
 
-    <test name="Test Basics 1">
+    <test name="ApachePOI Writer Reader Test">
         <classes>
-            <class name="frameworktests.GrpcTest"/>
+            <class name="frameworktests.ApachePOITests"/>
         </classes>
     </test>
 
