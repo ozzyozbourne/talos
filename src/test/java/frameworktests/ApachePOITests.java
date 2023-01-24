@@ -9,8 +9,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import static org.example.readers.ApachePOI.readAllFromXlsx;
-import static org.example.readers.ApachePOI.readCellFromXlsx;
+import static org.example.readers.ApachePOI.*;
 import static org.example.writers.ApachePOI.updateCellXlsx;
 import static org.example.writers.ApachePOI.updateRowXlsx;
 
@@ -62,6 +61,13 @@ public class ApachePOITests {
         val res  = readCellFromXlsx(FILE_PATH_THREE, "two", 1, 0);
         System.out.println("Expected -> UserName\nActual -> " + res);
         Assert.assertEquals(res, "UserName");
+    }
+
+    public void readRowFromXlsxTestOne() throws IOException {
+        val res  = readRowFromXlsx(FILE_PATH_THREE, "two", 1);
+        val expected = List.of("UserName", "two", "//h1[@class = 'heello']");
+        System.out.println("Expected -> "+expected+"\nActual -> " + res);
+        Assert.assertEquals(res, expected);
     }
 
 }

@@ -8,6 +8,8 @@ import org.assertj.core.api.Assertions;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 public final class ApachePOI {
@@ -28,7 +30,14 @@ public final class ApachePOI {
         try(val fis = new FileInputStream(fileName); val workbook = new XSSFWorkbook(fis)){
            res = Optional.of( workbook.getSheet(sheetName).getRow(row).getCell(col).getStringCellValue());
         }
-        Assertions.assertThat(res).as("[ASSERT FAILED] NUll Found at location -> " + row + "\t" + col).isPresent();
+        Assertions.assertThat(res).as("[ASSERT FAILED] Null Found at location -> " + row + "\t" + col).isPresent();
         return res.get();
+    }
+
+    public static List<String> readRowFromXlsx(final String fileName, final String sheetName, int row) throws IOException {
+        val res = new ArrayList<String>();
+        try(val fis = new FileInputStream(fileName); val workbook = new XSSFWorkbook(fis)){
+            workbook.getSheet(sheetName).getRow(row).forEach(c -> res.add(c.getStringCellValue()));
+        }return res;
     }
 }
