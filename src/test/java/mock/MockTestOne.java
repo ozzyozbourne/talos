@@ -30,7 +30,7 @@ public class MockTestOne {
     public void writeToXlsx() throws IOException, InterruptedException {
        // Thread.sleep(5000L);
         Faker faker = new Faker();
-        List<String> names = faker.collection(() -> faker.name().firstName()).len(3, 3).generate();
+        List<String> names = faker.collection(() -> faker.name().firstName()).len(3).generate();
         System.out.println(demoPojoOne.getRowIndex());
         System.out.println(names);
         updateRowXlsx(PATH_TO_XLSX, "three", demoPojoOne.getRowIndex(), names);

@@ -23,7 +23,7 @@ public class MockTestFactoryTwo {
     }
 
     @DataProvider(name = "DemoDataProviderTwo")
-     Iterator<Object[]> DemoDataProviderTwo(){
+    Iterator<Object[]> DemoDataProviderTwo(){
         val atomicInt = new AtomicInteger(0);
         val plistOne = getPojoFromXlsx(PATH_TO_XLSX, "one", DemoPojoOne.class);
         val plistTwo = getPojoFromXlsx(PATH_TO_XLSX, "three", DemoPojoTwo.class);
