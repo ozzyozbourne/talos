@@ -4,9 +4,13 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import lombok.val;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.assertj.core.api.Assertions;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public final class ApachePOI {
 
@@ -19,5 +23,21 @@ public final class ApachePOI {
            workbook.getSheet(sheetName).forEach(r -> {val vr = r.getRowNum();
                r.forEach(c -> multimap.put(vr, c.getStringCellValue()));});
        }return multimap;
+    }
+
+    public static String readCellFromXlsx(final String fileName, final String sheetName, int row, int col) throws IOException {
+        Optional<String> res;
+        try(val fis = new FileInputStream(fileName); val workbook = new XSSFWorkbook(fis)){
+           res = Optional.of( workbook.getSheet(sheetName).getRow(row).getCell(col).getStringCellValue());
+        }
+        Assertions.assertThat(res).as("[ASSERT FAILED] Null Found at location -> " + row + "\t" + col).isPresent();
+        return res.get();
+    }
+
+    public static List<String> readRowFromXlsx(final String fileName, final String sheetName, int row) throws IOException {
+        val res = new ArrayList<String>();
+        try(val fis = new FileInputStream(fileName); val workbook = new XSSFWorkbook(fis)){
+            workbook.getSheet(sheetName).getRow(row).forEach(c -> res.add(c.getStringCellValue()));
+        }return res;
     }
 }
