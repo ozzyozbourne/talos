@@ -18,7 +18,7 @@ public class MockTestTwo {
 
     public void printBothThePojos() throws InterruptedException {
 
-        Thread.sleep(5000L);
+       // Thread.sleep(5000L);
         System.out.println("[POJO ONE -> ]" +demoPojoTwo.getRowIndex());
         System.out.println("[POJO TWO -> ]" +demoPojoOne.getRowIndex());
 

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mock/MockTestFactoryTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/MockTestFactoryTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mock/MockTestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/MockTestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/DemoTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/DemoTestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/testpage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/testpage.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +305,7 @@
       <workItem from="1674473302781" duration="4702000" />
       <workItem from="1674499936226" duration="42000" />
       <workItem from="1674535887451" duration="2375000" />
-      <workItem from="1674553268922" duration="7743000" />
+      <workItem from="1674553268922" duration="9841000" />
     </task>
     <servers />
   </component>

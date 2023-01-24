@@ -16,5 +16,8 @@ public interface Constants {
    String SERVER_HOST = "172.17.0.2";
    Integer PORT_NO = 5432;
 
+   String PATH_TO_XLSX = PATH_TEST_RC + "XLSXFiles" + File.separator + "testpage.xlsx";
+
+
 
 }
