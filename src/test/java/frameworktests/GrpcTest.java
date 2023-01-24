@@ -25,7 +25,7 @@ public class GrpcTest {
     public static IdWrapper newIdWrapper(int id) {return IdWrapper.newBuilder().setId(id).build();}
 
     public void simpleTest(){
-        simple message = simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
+        Simple message = Simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
                 .addSampleLists(1).addSampleLists(2).addSampleLists(3).build();
 
         System.out.println(message);
@@ -70,23 +70,23 @@ public class GrpcTest {
 
     public void testToBinTwo() throws IOException {
 
-        simple message = simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
+        Simple message = Simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
                 .addSampleLists(1).addSampleLists(2).addSampleLists(3).build();
         System.out.println(message);
-        val path = PATH_TEST_RC + "grpcbinaryout"+ File.separator +"simple.bin";
+        val path = PATH_TEST_RC + "grpcbinaryout"+ File.separator +"Simple.bin";
         writeToBin(message, path);
-        message = readFromBin(simple::parseFrom, path);
+        message = readFromBin(Simple::parseFrom, path);
         System.out.println(message);
 
     }
 
     public void testToAndFromJson() throws InvalidProtocolBufferException {
-        simple message = simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
+        Simple message = Simple.newBuilder().setId(10).setIsSimple(true).setName("qwe")
                 .addSampleLists(1).addSampleLists(2).addSampleLists(3).build();
         val s = convertToJson(message);
         System.out.println(s);
-        ConvertMessage<simple.Builder, simple> d = m -> {JsonFormat.parser().merge(s, m); return m.build();};
-        message = d.apply(simple.newBuilder());
+        ConvertMessage<Simple.Builder, Simple> d = m -> {JsonFormat.parser().merge(s, m); return m.build();};
+        message = d.apply(Simple.newBuilder());
         System.out.println(message);
     }
 }
