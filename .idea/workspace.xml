@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/updaterow.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/updaterow.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TEster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotationconsumer/ConsumeSheetColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/annotationconsumer/ConsumeSheetColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/extentsetup/QAs.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +47,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rsap" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsap" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsap" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -132,28 +122,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/XLSXFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.talos [test]">
-    <configuration name="talos [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.talos [run]">
     <configuration name="talos [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -217,6 +186,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="talos [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="talos [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -239,7 +229,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.talos [build]" />
+      <item itemvalue="Gradle.talos [run]" />
       <item itemvalue="Gradle.talos [clean]" />
       <item itemvalue="Gradle.talos [generateProto]" />
       <item itemvalue="Gradle.talos [runWithExec]" />
@@ -247,11 +237,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.talos [run]" />
         <item itemvalue="Gradle.talos [test]" />
         <item itemvalue="Gradle.talos [runWithExec]" />
         <item itemvalue="Gradle.talos [generateProto]" />
         <item itemvalue="Gradle.talos [clean]" />
-        <item itemvalue="Gradle.talos [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +298,8 @@
       <workItem from="1674535887451" duration="2375000" />
       <workItem from="1674553268922" duration="10910000" />
       <workItem from="1674564212942" duration="354000" />
-      <workItem from="1674642577118" duration="16454000" />
+      <workItem from="1674642577118" duration="20488000" />
+      <workItem from="1674676030309" duration="576000" />
     </task>
     <servers />
   </component>

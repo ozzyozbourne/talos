@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'idea'
+    id 'application'
     id 'io.qameta.allure' version '2.11.2'
     id 'io.freefair.lombok' version '6.6.1'
     id 'com.google.protobuf' version '0.9.1'
@@ -13,8 +14,8 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    javaMainClass = "org.example.Main"
+application {
+    mainClass = 'org.example.Main'
 }
 
 protobuf {
@@ -64,6 +65,7 @@ dependencies {
     implementation 'com.google.protobuf:protobuf-java-util:3.21.12'
     implementation 'com.jayway.jsonpath:json-path:2.7.0'
     implementation 'org.postgresql:postgresql:42.5.1'
+    implementation 'com.zaxxer:HikariCP:5.0.1'
     implementation 'org.mongodb:mongodb-driver-sync:4.8.1'
     implementation 'dev.morphia.morphia:morphia-core:2.3.0'
     implementation 'redis.clients:jedis:4.3.1'
@@ -84,13 +86,6 @@ reporting.baseDir = 'gradleOutput'
 
 tasks.withType(JavaCompile).configureEach {
     options.fork = true
-}
-
-task runWithExec(type: Exec) {
-    dependsOn build
-    group = "Execution"
-    description = "Run the main class with ExecTask"
-    commandLine "java", "-classpath", sourceSets.main.runtimeClasspath.getAsPath(), javaMainClass
 }
 
 test {
