@@ -6,7 +6,7 @@ import org.example.annotations.ColumnNumber;
 
 @Data
 @AllArgsConstructor
-public class MyTestPojo {
+public class MyTestPojoOne {
 
     private int rowNumber;
     @ColumnNumber(number = 0)

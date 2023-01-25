@@ -24,7 +24,7 @@ public final class ConsumeSheetColumn {
 
         if(len == 0) throw new IllegalAccessException("No Declared Fields are present");
         val rowGetMethod = getTargetMethodName(fields[0]);
-        System.out.println(rowGetMethod);
+
         int rowNumber = (int)getValue(t, tClass, rowGetMethod);
 
         final Map<Integer, String> valMap = new HashMap<>();
