@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CSV {
 
-    public static <T> void toCSV(final String filePath, List<T> tList, final Class<T> t) throws IOException {
+    public synchronized static  <T> void toCSV(final String filePath, List<T> tList, final Class<T> t) throws IOException {
         val mapper = new CsvMapper();
         val schema = mapper.schemaFor(t).withColumnSeparator('|').withHeader().withoutQuoteChar();
         mapper.writer(schema).writeValue(new File(filePath), tList);
