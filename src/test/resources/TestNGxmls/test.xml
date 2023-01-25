@@ -4,7 +4,7 @@
 
     <test name="ApachePOI Writer Reader Test">
         <classes>
-            <class name="frameworktests.ApachePOITests"/>
+            <class name="frameworktests.CSVWritersTests"/>
         </classes>
     </test>
 
