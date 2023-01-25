@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/poiwriter.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/updaterow.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/updaterow.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -306,7 +308,7 @@
       <workItem from="1674535887451" duration="2375000" />
       <workItem from="1674553268922" duration="10910000" />
       <workItem from="1674564212942" duration="354000" />
-      <workItem from="1674642577118" duration="2975000" />
+      <workItem from="1674642577118" duration="16454000" />
     </task>
     <servers />
   </component>
