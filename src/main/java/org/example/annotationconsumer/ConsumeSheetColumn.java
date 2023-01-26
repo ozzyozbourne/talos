@@ -24,9 +24,7 @@ public final class ConsumeSheetColumn {
 
         if(len == 0) throw new IllegalAccessException("No Declared Fields are present");
         val rowGetMethod = getTargetMethodName(fields[0]);
-
         int rowNumber = (int)getValue(t, tClass, rowGetMethod);
-
         final Map<Integer, String> valMap = new HashMap<>();
 
         for(int i = 1; i < len; i++)
@@ -34,7 +32,6 @@ public final class ConsumeSheetColumn {
                     (String)getValue(t, tClass , getTargetMethodName(fields[i])));
 
         return new ImmutablePair<>(rowNumber, valMap);
-
     }
 
     private static <T> Object getValue(final T t, final Class<T> tClass, final String methodName) throws InvocationTargetException, IllegalAccessException {

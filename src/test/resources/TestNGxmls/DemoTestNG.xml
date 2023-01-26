@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demo Test Suite" thread-count="1">
+<suite name="Demo Test Suite" thread-count="6">
 
     <test name="Demo One" parallel="instances" group-by-instances="true">
         <classes>
@@ -8,10 +8,10 @@
         </classes>
     </test>
 
-    <test name="Demo Two" parallel="instances" group-by-instances="true">
-        <classes>
-            <class name="mock.MockTestFactoryTwo"/>
-        </classes>
-    </test>
+<!--    <test name="Demo Two" parallel="instances" group-by-instances="true">-->
+<!--        <classes>-->
+<!--            <class name="mock.MockTestFactoryTwo"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
