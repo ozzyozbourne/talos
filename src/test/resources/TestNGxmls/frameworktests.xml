@@ -38,4 +38,16 @@
         </classes>
     </test>
 
+    <test name="PojoWriter Tests">
+        <classes>
+            <class name="frameworktests.SheetsConsumerTests"/>
+        </classes>
+    </test>
+
+    <test name="Mock Demo Tests">
+        <classes>
+            <class name="mock.MockTestFactoryOne"/>
+        </classes>
+    </test>
+
 </suite>

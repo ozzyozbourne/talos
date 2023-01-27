@@ -46,7 +46,7 @@ public class MockTestOne {
     public void writeToXlsx() throws IOException, InterruptedException, InvocationTargetException, IllegalAccessException {
        // Thread.sleep(5000L);
         System.out.println(demoPojoThree);
-        val out = getXlsxTarget(demoPojoThree, DemoPojoThree.class);
+        val out = getXlsxTarget(demoPojoThree);
         System.out.println(out.left);
         out.right.forEach((k, v) -> System.out.println(k +"\t"+v));
         writeRow(out, PATH_TO_XLSX, "three");

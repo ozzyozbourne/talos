@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mock/MockTestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/MockTestOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/DemoTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/DemoTestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/XLSXFiles/testpage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XLSXFiles/testpage.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +307,9 @@
       <workItem from="1674564212942" duration="354000" />
       <workItem from="1674642577118" duration="20488000" />
       <workItem from="1674676030309" duration="4004000" />
-      <workItem from="1674730231838" duration="3643000" />
+      <workItem from="1674730231838" duration="3948000" />
+      <workItem from="1674740269906" duration="12000" />
+      <workItem from="1674741215945" duration="111000" />
     </task>
     <servers />
   </component>

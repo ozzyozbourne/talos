@@ -16,7 +16,7 @@ import static org.example.annotationconsumer.ConsumeSheetColumn.getXlsxTarget;
 public class SheetsConsumerTests {
 
       public void testOne() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoOne(2, "fs", "wef", "E"), MyTestPojoOne.class);
+        val res = getXlsxTarget(new MyTestPojoOne(2, "fs", "wef", "E"));
         val expectedVal = List.of("fs", "wef", "E");
         val expectedCol = List.of(0, 1, 2);
         System.out.println(res.left);
@@ -30,7 +30,7 @@ public class SheetsConsumerTests {
       }
 
       public void testTwo() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoOne(1232, "fsFV", "weERGf", "EERG"), MyTestPojoOne.class);
+        val res = getXlsxTarget(new MyTestPojoOne(1232, "fsFV", "weERGf", "EERG"));
         val expectedVal = List.of("fsFV", "weERGf", "EERG");
         val expectedCol = List.of(0, 1, 2);
         System.out.println(res.left);
@@ -44,7 +44,7 @@ public class SheetsConsumerTests {
       }
 
       public void testThree() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoOne(23, "fVSDVSs", "wWEFWef", "WEFWEFWEF"), MyTestPojoOne.class);
+        val res = getXlsxTarget(new MyTestPojoOne(23, "fVSDVSs", "wWEFWef", "WEFWEFWEF"));
         val expectedVal = List.of("fVSDVSs", "wWEFWef", "WEFWEFWEF");
         val expectedCol = List.of(0, 1, 2);
         System.out.println(res.left);
@@ -58,7 +58,7 @@ public class SheetsConsumerTests {
       }
 
       public void testFour() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoOne(1, "fsdvs", "wsdvef", "AFE"), MyTestPojoOne.class);
+        val res = getXlsxTarget(new MyTestPojoOne(1, "fsdvs", "wsdvef", "AFE"));
         val expectedVal = List.of("fsdvs", "wsdvef", "AFE");
         val expectedCol = List.of(0, 1, 2);
         System.out.println(res.left);
@@ -73,7 +73,7 @@ public class SheetsConsumerTests {
 
 
       public void testFive() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoTwo(1, "fsdvs", "wsdvef", "AFE"), MyTestPojoTwo.class);
+        val res = getXlsxTarget(new MyTestPojoTwo(1, "fsdvs", "wsdvef", "AFE"));
         val expectedVal = List.of("fsdvs", "wsdvef", "AFE");
         val expectedCol = List.of(10, 11, 12);
         System.out.println(res.left);
@@ -87,7 +87,7 @@ public class SheetsConsumerTests {
       }
 
       public void testSix() throws IllegalAccessException, InvocationTargetException {
-        val res = getXlsxTarget(new MyTestPojoThree(1, "fsdvs", "wsdvef", "AFE"), MyTestPojoThree.class);
+        val res = getXlsxTarget(new MyTestPojoThree(1, "fsdvs", "wsdvef", "AFE"));
         val expectedVal = List.of("fsdvs", "wsdvef", "AFE");
         val expectedCol = List.of(110, 111, 112);
         System.out.println(res.left);
