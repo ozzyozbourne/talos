@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FrameWorks Test" parallel="methods" thread-count="19">
+<suite name="FrameWorks Test" parallel="tests" thread-count="60">
 
-    <test name="Interpolation Test">
+    <test name="Interpolation Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.InterpolationTests"/>
         </classes>
     </test>
 
-    <test name="Yaml Reader Test">
+    <test name="Yaml Reader Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.YamlReaderTests"/>
         </classes>
     </test>
 
-    <test name="Toml Reader Test">
+    <test name="Toml Reader Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.TomlReaderTests"/>
         </classes>
     </test>
 
-    <test name="Csv Reader Test">
+    <test name="Csv Reader Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.CsvReaderTests"/>
         </classes>
     </test>
 
-    <test name="PoijiXlsx Reader Test">
+    <test name="PoijiXlsx Reader Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.PoijiXlsxReaderTests"/>
         </classes>
     </test>
 
-    <test name="ApachePOI Writer Reader Test">
+    <test name="ApachePOI Writer Reader Test" thread-count="6" parallel="methods">
         <classes>
             <class name="frameworktests.ApachePOITests"/>
+        </classes>
+    </test>
+
+    <test name="PojoWriter Tests" thread-count="6" parallel="methods">
+        <classes>
+            <class name="frameworktests.SheetsConsumerTests"/>
+        </classes>
+    </test>
+
+    <test name="Mock Demo Tests" thread-count="5" parallel="instances" group-by-instances="true" >
+        <classes>
+            <class name="mock.MockTestFactoryOne"/>
+        </classes>
+    </test>
+
+    <test name="Extent Report tests" thread-count="6" parallel="methods">
+        <classes>
+            <class name="extentsetup.test"/>
         </classes>
     </test>
 
