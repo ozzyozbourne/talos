@@ -56,4 +56,10 @@
         </classes>
     </test>
 
+    <test name="TestNG Thread Affinity Test" parallel="instances" thread-count="2" group-by-instances="true">
+        <classes>
+            <class name="frameworktests.ThreadAffinityTestNG"/>
+        </classes>
+    </test>
+
 </suite>
