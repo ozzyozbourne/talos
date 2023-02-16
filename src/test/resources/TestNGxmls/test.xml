@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Apache Util Test Suite" parallel="methods" thread-count="1">
+<suite name="Affinity Test Suite" parallel="instances" thread-count="2" group-by-instances="true" verbose="2">
 
-    <test name="ApachePOI Writer Reader Test">
+    <test name="TestNG Thread Affinity Test">
         <classes>
-            <class name="mock.MockTestFactoryOne"/>
+            <class name="frameworktests.ThreadAffinityTestNG"/>
         </classes>
     </test>
 
