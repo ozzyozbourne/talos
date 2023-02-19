@@ -1,4 +1,4 @@
-package org.example.loggers.extent;
+package org.example.extent;
 
 import com.aventstack.extentreports.ExtentTest;
 
@@ -20,7 +20,6 @@ public final class Manager {
     static void unloadOuter(){
          extOuter.remove();
     }
-
 
     static ExtentTest getExtentInnerTest(){
         return extInner.get();

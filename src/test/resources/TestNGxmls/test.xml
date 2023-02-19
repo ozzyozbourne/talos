@@ -3,7 +3,7 @@
 <suite name="Affinity Test Suite" thread-count="12" parallel="tests"  >
 
     <listeners>
-        <listener class-name="org.example.listeners.ExtentListener"/>
+        <listener class-name="org.example.extent.Listener"/>
     </listeners>
 
 

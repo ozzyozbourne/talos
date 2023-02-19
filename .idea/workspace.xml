@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab9b662-5bc9-4574-8c2b-c778abd9f7b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loggers/extent/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/extentsetup/TestOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loggers/Extent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loggers/We.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/extentsetup/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/listeners/ExtentListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loggers/extent/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/extent/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loggers/extent/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/extent/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loggers/extent/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/extent/Reporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/frameworktests/ThreadAffinityTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frameworktests/ThreadAffinityTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/databasetests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/databasetests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/frameworktests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/frameworktests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNGxmls/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/DriverResolver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/DriverResolver.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +308,7 @@
       <workItem from="1676818168186" duration="3158000" />
       <workItem from="1676823211482" duration="6410000" />
       <workItem from="1676830423904" duration="5494000" />
-      <workItem from="1676835953889" duration="9752000" />
+      <workItem from="1676835953889" duration="11152000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@
 <suite name="Practice Suite" parallel="methods">
 
     <listeners>
-        <listener class-name="org.example.listeners.ExtentListener"/>
+        <listener class-name="org.example.extent.Listener"/>
     </listeners>
 
     <test name="Test Basics 1">

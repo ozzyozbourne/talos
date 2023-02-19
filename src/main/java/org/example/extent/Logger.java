@@ -1,4 +1,4 @@
-package org.example.loggers.extent;
+package org.example.extent;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import org.example.enums.LogType;
@@ -48,13 +48,12 @@ public final class Logger {
         MAP_INNER.get(status).accept(msg);
     }
 
-    public static void logToSpark(LogType status, String msg){
+    static void logToSpark(LogType status, String msg){
         switch (status){
             case PASS ->    PASS_SPARK_INNER.accept(msg);
             case FAIL ->    FAIL_SPARK_INNER.accept(msg);
             case INFO ->    INFO_SPARK_INNER.accept(msg);
             case SKIP ->    SKIP_SPARK_INNER.accept(msg);
-            case WARNING -> WARNING_SPARK_INNER.accept(msg);
             default      -> throw new IllegalArgumentException("Enum not in switch" + status);
         }
     }

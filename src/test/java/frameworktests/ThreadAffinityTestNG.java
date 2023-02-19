@@ -1,7 +1,6 @@
 package frameworktests;
 
 import lombok.val;
-import org.example.enums.LogType;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
@@ -12,8 +11,6 @@ import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
-import static org.example.enums.LogType.FAIL;
-import static org.example.loggers.extent.Logger.log;
 public class ThreadAffinityTestNG {
 
     private long threadId;
