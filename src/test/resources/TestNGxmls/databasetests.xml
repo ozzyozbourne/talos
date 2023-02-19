@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Practice Suite" parallel="tests" thread-count="6">
+<suite name="Practice Suite" parallel="methods">
+
+    <listeners>
+        <listener class-name="org.example.listeners.ExtentListener"/>
+    </listeners>
 
     <test name="Test Basics 1">
         <classes>
-            <class name="databasedrivertests.PostgressTests"/>
+            <class name="extentsetup.TestOne"/>
         </classes>
     </test>
 
