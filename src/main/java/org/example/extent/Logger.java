@@ -54,11 +54,11 @@ public final class Logger {
             case FAIL ->    FAIL_SPARK_INNER.accept(msg);
             case INFO ->    INFO_SPARK_INNER.accept(msg);
             case SKIP ->    SKIP_SPARK_INNER.accept(msg);
-            default      -> throw new IllegalArgumentException("Enum not in switch" + status);
+            default   ->    throw new IllegalArgumentException("Enum not in switch" + status);
         }
     }
 
-    public static void logTestTagResult(String msg){
+    static void logTestTagResult(String msg){
         INFO_SPARK_OUTER.accept(msg);
     }
 }

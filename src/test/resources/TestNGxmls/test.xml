@@ -13,6 +13,11 @@
         </classes>
     </test>
 
+    <test name="lOGGER TEST TWO">
+        <classes>
+            <class name="extentsetup.TestTwo"/>
+        </classes>
+    </test>
 
 
 </suite>
