@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Affinity Test Suite" parallel="instances" thread-count="2" group-by-instances="true" verbose="2">
+<suite name="Affinity Test Suite" thread-count="12" parallel="tests"  >
 
-    <test name="TestNG Thread Affinity Test">
+    <listeners>
+        <listener class-name="org.example.extent.Listener"/>
+    </listeners>
+
+
+    <test name="TestNG Thread Affinity Test ONE" thread-count="5" parallel="instances" group-by-instances="true" >
         <classes>
             <class name="frameworktests.ThreadAffinityTestNG"/>
         </classes>
     </test>
+
+    <test name="lOGGER TEST TWO">
+        <classes>
+            <class name="extentsetup.TestTwo"/>
+        </classes>
+    </test>
+
 
 </suite>

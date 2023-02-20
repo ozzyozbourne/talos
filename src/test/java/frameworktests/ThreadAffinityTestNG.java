@@ -11,7 +11,6 @@ import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
-
 public class ThreadAffinityTestNG {
 
     private long threadId;
@@ -61,6 +60,7 @@ public class ThreadAffinityTestNG {
     public void testSeven() throws InterruptedException {
         Assert.assertEquals(Thread.currentThread().getId(), threadId);
         Thread.sleep(3000);
+        Assert.fail("sdkvnslkdnvklsdv");
     }
 
     @Test(dependsOnMethods = "testSeven")
@@ -72,7 +72,7 @@ public class ThreadAffinityTestNG {
     @DataProvider(name = "IntValProvider")
     static Iterator<Object[]> IntValProvider(){
         val atomicInt = new AtomicInteger(0);
-        val arr = IntStream.range(0, 2).toArray();
+        val arr = IntStream.range(0, 5).toArray();
         val d2Arr = new Object[arr.length][1];
         Arrays.stream(arr).forEach(s -> d2Arr[atomicInt.getAndIncrement()][0] = s);
         return Arrays.stream(d2Arr).iterator();

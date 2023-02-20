@@ -1,3 +1,5 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
 plugins {
     id 'java'
     id 'idea'
@@ -5,6 +7,7 @@ plugins {
     id 'io.qameta.allure' version '2.11.2'
     id 'io.freefair.lombok' version '6.6.1'
     id 'com.google.protobuf' version '0.9.1'
+    id "org.jsonschema2pojo" version "1.2.0"
 }
 
 group 'org.example'
@@ -32,6 +35,12 @@ protobuf {
             grpc {}
         }
     }
+}
+
+jsonSchema2Pojo {
+    source = files("$projectDir/src/test/resources/jsonschema")
+    targetDirectory = file("$projectDir/src/main/java")
+    targetPackage = 'org.example.jsonpojofromschema'
 }
 
 dependencies {
@@ -74,10 +83,10 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-core:2.19.0'
     implementation 'io.cucumber:cucumber-testng:7.11.0'
     implementation 'io.cucumber:cucumber-java:7.11.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.7.2'
 
     testImplementation 'io.rest-assured:rest-assured:5.3.0'
     testImplementation 'com.microsoft.playwright:playwright:1.28.1'
-    testImplementation 'org.seleniumhq.selenium:selenium-java:4.7.2'
     testImplementation 'com.codeborne:selenide:6.11.0'
     testImplementation 'io.appium:java-client:8.3.0'
 }
@@ -93,6 +102,10 @@ test {
         environment 'SELENIUM_REMOTE_URL', System.getProperty('url')
     else
         environment 'PLAYWRIGHT_BROWSERS_PATH', "$projectDir/pw-browsers"
+    if (Os.isFamily(Os.FAMILY_WINDOWS))
+        environment 'webdriver.chrome.driver', "$projectDir/src/test/resources/drivers/chromedriver.exe"
+    else
+        environment 'webdriver.chrome.driver', "$projectDir/src/test/resources/drivers/chromedriver"
     systemProperties(System.getProperties().asImmutable())
     useTestNG(){
         setUseDefaultListeners true

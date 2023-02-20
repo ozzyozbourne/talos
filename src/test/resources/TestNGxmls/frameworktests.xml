@@ -52,7 +52,7 @@
 
     <test name="Extent Report tests" thread-count="6" parallel="methods">
         <classes>
-            <class name="extentsetup.test"/>
+            <class name="extentsetup.TestOne"/>
         </classes>
     </test>
 
